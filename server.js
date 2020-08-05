@@ -5,7 +5,7 @@ const mockUserData=[
     {name: 'mark'},
     {name : 'jill'}
 ];
-app.get('/users', funcrio(req, res){
+app.get('/users', function(req, res){
     res.json({
         success : true,
         message : 'sucefully got user!',
